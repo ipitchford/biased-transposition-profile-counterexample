@@ -14,8 +14,8 @@
     },
     {
       "path": ".zenodo.json",
-      "bytes": 1099,
-      "sha256": "1e750e97c741149f897079cbc14fcbdae1ea2cf90aa82c5cc7cff87fae28a7d3"
+      "bytes": 1316,
+      "sha256": "f845cff1892ae2daebab9f9081069dc3fe8cbd1e222d3aa0aa49c70a3f8eb03f"
     },
     {
       "path": "AI_INDEX.md",
@@ -29,8 +29,8 @@
     },
     {
       "path": "CITATION.cff",
-      "bytes": 988,
-      "sha256": "07e01f8ae014a3dea201b8b2192baca9f285d060a2d983ff1e1869ab0bd002f3"
+      "bytes": 1017,
+      "sha256": "a2f97225ea3a3af821f96cfdeec3b0c76c8f75578f78c26f972841ede0b5d925"
     },
     {
       "path": "CITATION_AUDIT.md",
@@ -49,8 +49,8 @@
     },
     {
       "path": "IDENTITY.md",
-      "bytes": 446,
-      "sha256": "6c6c8fa821c39118e358880790dee3b6ab9bf2066850196a25a9efba6f69fc16"
+      "bytes": 674,
+      "sha256": "c28c5c34032f98141bd90c9a4666b2fb96a72d494e59461c22e8ec718ae1606b"
     },
     {
       "path": "LICENSE",

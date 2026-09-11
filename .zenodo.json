@@ -2,7 +2,7 @@
   "title": "Untouched subsets and a counterexample to the Nestoridi–Yan biased-transposition limit-profile conjecture",
   "upload_type": "publication",
   "publication_type": "preprint",
-  "description": "Unrefereed candidate proof of an unconditional counterexample to Conjecture 1.6 in arXiv:2409.16387v1, supported by an observable slow-subset event, a finite-moment alternative and exact arithmetic certificates. It does not solve the general t_mix = t_star + O(n) upper-bound problem, supply a replacement profile, establish priority, or constitute formal or external verification.",
+  "description": "Unrefereed candidate proof of an unconditional counterexample to Conjecture 1.6 in arXiv:2409.16387v1, supported by an observable slow-subset event, a finite-moment alternative and exact arithmetic certificates. It does not solve the general t_mix = t_star + O(n) upper-bound problem, supply a replacement profile, establish priority, or constitute formal or external verification. Original prose and research data are CC0-1.0; original code is MIT. Inherited inputs retain NOASSERTION and are not relicensed; see LICENSES.md. The record-level CC0 licence applies to original research content only.",
   "creators": [
     {"name": "Anonymous"}
   ],
