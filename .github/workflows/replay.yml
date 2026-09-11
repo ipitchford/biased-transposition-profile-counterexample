@@ -18,7 +18,9 @@ jobs:
           python-version: ${{ matrix.python }}
       - run: python code/verify_manifest.py
       - run: python code/verify_exact.py --out /tmp/exact.json
-      - run: diff -u results/exact_verification.json /tmp/exact.json
+      - name: Compare mathematical output across Python versions
+        run: diff -u <(jq 'del(.python)' results/exact_verification.json) <(jq 'del(.python)' /tmp/exact.json)
+        shell: bash
       - run: python code/verify_claim_surface.py --out /tmp/claim-surface.json
       - run: python -O code/verify_exact.py --out /tmp/exact-optimized.json
       - run: diff -u /tmp/exact.json /tmp/exact-optimized.json
