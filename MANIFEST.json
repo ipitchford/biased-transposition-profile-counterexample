@@ -4,8 +4,8 @@
   "files": [
     {
       "path": ".github/workflows/publish-candidate.yml",
-      "bytes": 1779,
-      "sha256": "dbc3158ee59f2e89de3b6a61163dbb44aa64fd29defe2b67206abb6270c250d4"
+      "bytes": 1387,
+      "sha256": "d664032dfc6a9986ad34438f194872769a5b236307f839b1615f2433209cd686"
     },
     {
       "path": ".github/workflows/replay.yml",
@@ -201,6 +201,26 @@
       "path": "paper.tex",
       "bytes": 38741,
       "sha256": "96ccf81679369547cbcc5c9186998ce9c8e8f402fb2541a15ca70a0031b93fd5"
+    },
+    {
+      "path": "publication-assets/SHA256SUMS.txt",
+      "bytes": 373,
+      "sha256": "be3fb4df2d1a323c76cfa722c00b5d1876919bb28949bb2730e31d39668e1397"
+    },
+    {
+      "path": "publication-assets/biased-transposition-audit-1.0.1-candidate.pdf",
+      "bytes": 81248,
+      "sha256": "0b4d0f182faa187f53ba260a1f613dcea6eff386c10ce4f65a5a04c8ccdca673"
+    },
+    {
+      "path": "publication-assets/biased-transposition-profile-counterexample-1.0.1-candidate.pdf",
+      "bytes": 123564,
+      "sha256": "f2297f1a571d5e53c56b1aba8252960dda8e4fc5f65e66127fc5d8d3811dea32"
+    },
+    {
+      "path": "publication-assets/biased-transposition-profile-counterexample-1.0.1-candidate.zip",
+      "bytes": 540366,
+      "sha256": "34ed6762cb23f731532649a8727295f87e3e3ece99504b11f7a9745c55fcf7dd"
     },
     {
       "path": "requirements-numerical.txt",

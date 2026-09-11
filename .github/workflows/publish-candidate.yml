@@ -15,11 +15,9 @@ jobs:
       - name: Package the immutable reviewed tag
         run: |
           mkdir -p release-assets
-          git archive --format=zip --prefix=biased-transposition-profile-counterexample/ --output=release-assets/biased-transposition-profile-counterexample-1.0.1-candidate.zip v1.0.1-candidate
+          cp publication-assets/* release-assets/
           test "$(sha256sum release-assets/biased-transposition-profile-counterexample-1.0.1-candidate.zip | cut -d' ' -f1)" = 34ed6762cb23f731532649a8727295f87e3e3ece99504b11f7a9745c55fcf7dd
-          git show v1.0.1-candidate:paper.pdf > release-assets/biased-transposition-profile-counterexample-1.0.1-candidate.pdf
-          git show v1.0.1-candidate:audit.pdf > release-assets/biased-transposition-audit-1.0.1-candidate.pdf
-          (cd release-assets && sha256sum *.pdf *.zip > SHA256SUMS.txt)
+          (cd release-assets && sha256sum -c SHA256SUMS.txt)
       - name: Publish candidate assets
         env:
           GH_TOKEN: ${{ github.token }}
