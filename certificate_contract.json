@@ -1,0 +1,34 @@
+{
+  "schema_version": "1.0",
+  "profile_gap": {
+    "s": "log(6)",
+    "slow_weight_range": "0 < b < 1",
+    "B_terms": [
+      ["3/2", "1/2"],
+      ["-4", "3"]
+    ],
+    "D_terms": [
+      ["5/2", "1"],
+      ["-13", "4"]
+    ],
+    "gap_lower_strict": "29/1000",
+    "gap_upper_strict": "291/10000"
+  },
+  "finite_moment_witness": {
+    "lower_degree": 11,
+    "stationary_upper_degree": 10,
+    "witness": "5730077809/8174960640",
+    "exceeds_D_by_more_than": "19/1000"
+  },
+  "finite_table": [
+    {"N": 100, "t": 281, "b": "1/2", "published_lower": "0.728373588448375223"},
+    {"N": 1000, "t": 5115, "b": "1/2", "published_lower": "0.713183969406310628"},
+    {"N": 10000, "t": 74185, "b": "1/2", "published_lower": "0.710943732347267839"},
+    {"N": 1000000, "t": 12023751, "b": "1/2", "published_lower": "0.710651383270999821"}
+  ],
+  "saved_n8_trajectories": {
+    "first_time": 0,
+    "last_time": 60,
+    "row_count": 61
+  }
+}

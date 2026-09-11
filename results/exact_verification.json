@@ -1,0 +1,122 @@
+{
+  "schema_version": "1.0",
+  "status": "PASS",
+  "python": "3.14.7",
+  "arithmetic": "integer and Fraction; fixed-point powers use directed integer rounding",
+  "formal_proof_assistant": false,
+  "claim_contract": "certificate_contract.json",
+  "checks": [
+    {
+      "name": "subset_avoidance_by_draw_enumeration",
+      "cases": 32,
+      "pass": true
+    },
+    {
+      "name": "tail_at_least_two_Bonferroni_identity",
+      "cases": 2222,
+      "pass": true
+    },
+    {
+      "name": "exact_profile_gap",
+      "lower_bound_B": {
+        "lower": "0.710647716097494363",
+        "upper": "0.710647716097494364"
+      },
+      "conjectured_value_D": {
+        "lower": "0.681595297375061460",
+        "upper": "0.681595297375061461"
+      },
+      "gap": {
+        "lower": "0.029052418722432903",
+        "upper": "0.029052418722432904"
+      },
+      "rational_certificate": "29/1000 < B-D < 291/10000",
+      "pass": true
+    },
+    {
+      "name": "finite_moment_disproof_without_Poisson_convergence",
+      "rational_witness": "5730077809/8174960640",
+      "witness_interval": {
+        "lower": "0.700930323867589899",
+        "upper": "0.700930323867589900"
+      },
+      "exceeds_conjecture_by_more_than": "19/1000",
+      "pass": true
+    },
+    {
+      "name": "finite_N_event_bounds",
+      "values": [
+        {
+          "N": 100,
+          "t": 281,
+          "b": "1/2",
+          "bonferroni_degrees": [
+            21,
+            20
+          ],
+          "published_downward_rounded_lower_bound": "0.728373588448375223",
+          "certified_lower_bound_interval": {
+            "lower": "0.728373588448375223",
+            "upper": "0.728373588448375224"
+          }
+        },
+        {
+          "N": 1000,
+          "t": 5115,
+          "b": "1/2",
+          "bonferroni_degrees": [
+            21,
+            20
+          ],
+          "published_downward_rounded_lower_bound": "0.713183969406310628",
+          "certified_lower_bound_interval": {
+            "lower": "0.713183969406310628",
+            "upper": "0.713183969406310629"
+          }
+        },
+        {
+          "N": 10000,
+          "t": 74185,
+          "b": "1/2",
+          "bonferroni_degrees": [
+            21,
+            20
+          ],
+          "published_downward_rounded_lower_bound": "0.710943732347267839",
+          "certified_lower_bound_interval": {
+            "lower": "0.710943732347267839",
+            "upper": "0.710943732347267840"
+          }
+        },
+        {
+          "N": 1000000,
+          "t": 12023751,
+          "b": "1/2",
+          "bonferroni_degrees": [
+            21,
+            20
+          ],
+          "published_downward_rounded_lower_bound": "0.710651383270999821",
+          "certified_lower_bound_interval": {
+            "lower": "0.710651383270999821",
+            "upper": "0.710651383270999822"
+          }
+        }
+      ],
+      "pass": true
+    },
+    {
+      "name": "negative_control_interlacing_square",
+      "p": [
+        "9/10",
+        "1/10"
+      ],
+      "n": 2,
+      "t": 1,
+      "actual_chi_squared": "256/625",
+      "invalid_claim_rhs": "16/25",
+      "expected_failure_detected": true,
+      "pass": true
+    }
+  ]
+}

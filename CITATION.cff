@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "Cite this unrefereed candidate and preserve its assurance qualifications."
+title: "Untouched subsets and a counterexample to the Nestoridi–Yan biased-transposition limit-profile conjecture"
+authors:
+  - name: Anonymous
+version: 1.0.1-candidate
+date-released: 2026-09-11
+license:
+  - CC0-1.0
+  - MIT
+repository-code: https://github.com/ipitchford/biased-transposition-profile-counterexample
+keywords:
+  - random transpositions
+  - Markov-chain mixing
+  - limit profile
+  - total variation
+  - counterexample
+abstract: >-
+  An unrefereed candidate proof that the equal-half limit-profile formula in
+  Nestoridi and Yan, arXiv:2409.16387v1, is false, together with a general
+  deterministic-subset lower bound and exact finite certificates. The general
+  t_mix = t_star + O(n) upper-bound problem remains open.
+  Original prose and research data are CC0-1.0; original code is MIT.
+  Inherited inputs retain NOASSERTION and are not relicensed; see LICENSES.md.

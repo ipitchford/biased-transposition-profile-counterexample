@@ -1,0 +1,34 @@
+name: Certificate and replay checks
+on:
+  push:
+    branches: [main]
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  exact:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python: ['3.10', '3.12', '3.14']
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python }}
+      - run: python code/verify_manifest.py
+      - run: python code/verify_exact.py --out /tmp/exact.json
+      - run: diff -u results/exact_verification.json /tmp/exact.json
+      - run: python code/verify_claim_surface.py --out /tmp/claim-surface.json
+      - run: python -O code/verify_exact.py --out /tmp/exact-optimized.json
+      - run: diff -u /tmp/exact.json /tmp/exact-optimized.json
+  numerical:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install -r requirements-numerical.txt
+      - run: OPENBLAS_NUM_THREADS=1 python code/verify_numeric.py --input source_inputs/biased_transposition --out /tmp/numeric.json
+      - run: python code/test_negative_controls.py

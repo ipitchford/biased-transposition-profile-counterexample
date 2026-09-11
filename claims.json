@@ -1,0 +1,147 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-09-11",
+  "release_status": "unrefereed_research_continuation",
+  "original_request_complete": false,
+  "original_request_remaining": "General sharp-location upper bound",
+  "completed_mathematical_result": "Unconditional equal-half profile counterexample and subset lower-bound theorem",
+  "formal_proof_assistant_verification": false,
+  "independent_external_mathematical_review": false,
+  "certificate_contract": "certificate_contract.json",
+  "claims": [
+    {
+      "id": "T1",
+      "claim": "Equal-half profile conjecture in arXiv:2409.16387v1 is false for every fixed 0<b<1, at s=log(6).",
+      "status": "proof_supplied_unrefereed",
+      "location": "paper.md Section 2",
+      "new_in_this_continuation": "Unconditional proof replaces the uploaded conditional argument.",
+      "dependencies": [
+        "untouched subset avoidance identity",
+        "stationary restricted fixed-count moments",
+        "exact exponential inequalities"
+      ],
+      "numeric_certificate": "results/exact_verification.json"
+    },
+    {
+      "id": "T1_FINITE",
+      "claim": "Eleven untouched factorial moments suffice for an unconditional asymptotic contradiction.",
+      "status": "proof_supplied_unrefereed_and_exact_inequality_checked",
+      "location": "paper.md Section 2.3",
+      "certificate": "5730077809/8174960640 > conjectured Poisson TV + 19/1000"
+    },
+    {
+      "id": "T2",
+      "claim": "Poisson limit for untouched deterministic subsets and associated one-sided full-TV lower bound.",
+      "status": "proof_supplied_unrefereed",
+      "location": "paper.md Section 3",
+      "limitations": [
+        "Not a limit theorem for returned fixed labels.",
+        "Not a full-distance upper bound."
+      ]
+    },
+    {
+      "id": "COR_SPARSE_CONTINUUM",
+      "claim": "Gumbel-shaped lower envelope for specified sparse slow-dominated and continuously spaced families.",
+      "status": "proof_supplied_unrefereed",
+      "location": "paper.md Sections 3.1 and 3.3",
+      "limitations": [
+        "Lower envelope only.",
+        "Critical square-root family treated separately."
+      ]
+    },
+    {
+      "id": "P3",
+      "claim": "Uniform bounded-array lower location t_mix(epsilon)>=t_star-O(n).",
+      "status": "supplementary_inherited_proof_rechecked_and_scoped",
+      "location": "paper.md Supplement A, Proposition 3",
+      "preconditions": [
+        "integer time",
+        "n>=4C",
+        "c/n<=p_i<=C/n"
+      ]
+    },
+    {
+      "id": "P25",
+      "claim": "General extracted-uniform upper bound n log(n)/(2c^2)+O(n).",
+      "status": "supplementary_proof_supplied_with_external_uniform_mixing_input",
+      "location": "paper.md Supplement A.2",
+      "external_input": "Teyssier 2020 uniform transposition mixing asymptotic (time convention checked against arXiv:1905.08514v1)",
+      "novelty_claim": false
+    },
+    {
+      "id": "SPECTRAL",
+      "claim": "Standard-representation chi-square lower bound; probability-interlacing version needs p_max<=1/2.",
+      "status": "supplementary_inherited_proof_corrected",
+      "location": "paper.md Supplement B",
+      "negative_control": {
+        "n": 2,
+        "p": [
+          "9/10",
+          "1/10"
+        ],
+        "t": 1,
+        "actual_chi2": "256/625",
+        "invalid_bound": "16/25"
+      },
+      "does_not_establish": [
+        "actual chi-square cutoff location",
+        "chi-square window width",
+        "impossibility of all spectral approaches"
+      ]
+    },
+    {
+      "id": "SPECTRUM_2CLASS",
+      "claim": "Normalised arbitrary two-class eigenvalue and multiplicity formula.",
+      "status": "supplementary_known_derivation_reproduced_and_numerically_crosschecked",
+      "location": "audit.md Section 3",
+      "prior_art": "Nestoridi and Yan 2024 spectrum derivation",
+      "numeric_scope": "n=6, m=2, alpha=2, beta=1/2"
+    },
+    {
+      "id": "NUMERIC",
+      "claim": "All eight n=8 stored 61-row trajectories, integer time columns 0 through 60 and mixing thresholds replayed by an implementation-diverse checker.",
+      "status": "executed_pass",
+      "location": "results/numerical_verification.json",
+      "arithmetic": "float64 deterministic enumeration",
+      "external_independent_review": false
+    },
+    {
+      "id": "FINITE_TABLE",
+      "claim": "The four positive event-based lower bounds printed in Table 1 are met by exact outward-rounded intervals at the stated parameter tuples.",
+      "status": "exact_arithmetic_checked_with_hostile_regression",
+      "location": "paper.md Table 1 and results/exact_verification.json",
+      "negative_control": "Replacing every computed interval by (0,0) is rejected by code/test_negative_controls.py",
+      "limitations": [
+        "The bounds concern one final-state event, not full enumeration of the permutation group.",
+        "They support the table and do not formally verify the asymptotic proof."
+      ]
+    },
+    {
+      "id": "OPEN_MAIN",
+      "claim": "For all bounded product-weight arrays t_mix(epsilon)=t_star+O(n).",
+      "status": "unresolved_not_claimed",
+      "missing_obligation": "Uniform full-TV upper bound d_n(floor(t_star+Kn))<=epsilon with K depending only on c,C,epsilon.",
+      "evidence_does_not_close_gap": [
+        "selected-statistic Monte Carlo",
+        "finite-n projection agreement",
+        "spectral lower bounds",
+        "profile counterexample"
+      ]
+    },
+    {
+      "id": "OPEN_REFINED_PROFILE",
+      "claim": "Exact corrected class-refined or fixed-set total-variation profile.",
+      "status": "unproved_conjecture_not_claimed",
+      "missing_obligations": [
+        "appropriate refined fixed-label joint limit",
+        "matching upper bound on full TV"
+      ]
+    },
+    {
+      "id": "PRIORITY",
+      "claim": "First-in-literature status of the unconditional profile counterexample.",
+      "status": "not_established",
+      "search_scope": "Targeted source audit through 2026-09-10; pinned contradiction to arXiv v1."
+    }
+  ]
+}

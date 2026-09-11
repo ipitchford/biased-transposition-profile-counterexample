@@ -1,0 +1,39 @@
+{
+  "date": "2026-09-11",
+  "python": "3.14.7",
+  "numpy": "2.4.2",
+  "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+  "commands_executed": [
+    {
+      "command": "python3 code/verify_exact.py --out results/exact_verification.json",
+      "exit_status": 0
+    },
+    {
+      "command": "python3 -O code/verify_exact.py --out results/exact_verification_optimized.json",
+      "exit_status": 0
+    },
+    {
+      "command": "OPENBLAS_NUM_THREADS=1 python3 code/verify_numeric.py --input source_inputs/biased_transposition --out results/numerical_verification.json",
+      "exit_status": 0
+    },
+    {
+      "command": "OPENBLAS_NUM_THREADS=1 python3 -O code/verify_numeric.py --input source_inputs/biased_transposition --out results/numerical_verification_optimized.json",
+      "exit_status": 0
+    },
+    {
+      "command": "python3 code/test_negative_controls.py",
+      "exit_status": 0,
+      "mutations_rejected": 23
+    },
+    {
+      "command": "python3 -O code/test_negative_controls.py",
+      "exit_status": 0,
+      "mutations_rejected": 23
+    }
+  ],
+  "normal_and_optimized_exact_reports_byte_identical": true,
+  "normal_and_optimized_numerical_reports_byte_identical": true,
+  "independent_external_review": false,
+  "formal_proof_assistant": false,
+  "inherited_larger_runs_fully_replayed": false
+}

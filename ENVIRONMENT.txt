@@ -1,0 +1,10 @@
+Producer replay environment (2026-09-11)
+macOS-26.6.2-arm64-arm-64bit-Mach-O
+Python 3.14.7
+NumPy 2.4.2
+
+Exact verifier: Python standard library only.
+Numerical replay: NumPy, with requirements-numerical.txt as the portable floor.
+Document build: Pandoc plus XeLaTeX.
+Pandoc 3.9
+Tectonic 0.17.0 (XeTeX-compatible engine used for the final producer build)

@@ -1,0 +1,308 @@
+{
+  "schema_version": "1.0",
+  "archive_records": [
+    {
+      "original_name": "biased_transposition_bundle(1).zip",
+      "bytes": 240927,
+      "sha256": "2644dd058691a1f4f54576ec891bf86fee4a42453e89c23782ae7301d7323910",
+      "members": [
+        {
+          "path": "biased_transposition/biased_transposition_transition.md",
+          "bytes": 40974,
+          "sha256": "3b7b7fbb19fd494e601e5992ca8dfd3564ab2bdaf1124bfb05e14543cbc3acd4"
+        },
+        {
+          "path": "biased_transposition/biased_transposition_transition.pdf",
+          "bytes": 122280,
+          "sha256": "9bbdc0dbc05803cf5807556ede8ed5d25fb6445dbcc0bbac0493a100082aeda0"
+        },
+        {
+          "path": "biased_transposition/chi2_large.py",
+          "bytes": 1306,
+          "sha256": "e3e832ce28eb5d5b5ecd8c656a326a014c4d4f1481f3615a18b1d901c064d746"
+        },
+        {
+          "path": "biased_transposition/chi2_n20_be0.5.json",
+          "bytes": 945,
+          "sha256": "6a69c58ba920ce6cdc900f2af3b6349cd1046dba718209375f51dfba8e28aa84"
+        },
+        {
+          "path": "biased_transposition/exact_n10.json",
+          "bytes": 87520,
+          "sha256": "78fd3d455288b9c0429bbbc301d7df05fcb35ec1bff1b1427caec4ea14050a83"
+        },
+        {
+          "path": "biased_transposition/exact_n8.json",
+          "bytes": 48002,
+          "sha256": "208ee45fa7f6ab7a445f06aab0454bee9d0a94b6bd3aa7243246dfbf269319f5"
+        },
+        {
+          "path": "biased_transposition/exact_n9.json",
+          "bytes": 64048,
+          "sha256": "8f81795b4afe90acac7af2b946a972c01d6709e59fb372b463c2145a7099faf7"
+        },
+        {
+          "path": "biased_transposition/exact_tv.py",
+          "bytes": 2665,
+          "sha256": "f7f852c9aab83cd39a7393ec3db1e89a670b04757f282198a048584998ce9540"
+        },
+        {
+          "path": "biased_transposition/mc2000.log",
+          "bytes": 5655,
+          "sha256": "7e345e037e471d3110f1dfbde00ee6e876162407f5c323f469b03519aaef2264"
+        },
+        {
+          "path": "biased_transposition/mc_n2000_all.json",
+          "bytes": 14428,
+          "sha256": "e6525c7133460e3ef602d81d504e0ae1c2f7d9e5af527a4ac4be7ec9028c27f2"
+        },
+        {
+          "path": "biased_transposition/montecarlo.py",
+          "bytes": 7073,
+          "sha256": "15f24156661bb1b915cfb9ec0c01901589755f99bb9c6360e37fedbdf3b41c56"
+        },
+        {
+          "path": "biased_transposition/n10.log",
+          "bytes": 1541,
+          "sha256": "34ce592906cf9b1eb0bd7e79a9753bdedc2dfd1aa167db5674ad2bea337acf8c"
+        },
+        {
+          "path": "biased_transposition/n9.log",
+          "bytes": 1528,
+          "sha256": "f6ccf1946c93fe45d5fe1d86967e76cfb93a2350fe50606e5efd2d9d274a25e8"
+        },
+        {
+          "path": "biased_transposition/noisefloor.py",
+          "bytes": 628,
+          "sha256": "e2ed91e0b0112f59cb3ea70e42c8d97336de38a22bd6be43d4442525668e5d81"
+        },
+        {
+          "path": "biased_transposition/proj_fast.py",
+          "bytes": 1454,
+          "sha256": "046f27bb7f4e5094424fe31c283cd7f32bae10f0571ac5a08ed723e4cb850a2e"
+        },
+        {
+          "path": "biased_transposition/projections.py",
+          "bytes": 2900,
+          "sha256": "34e4dcaac83aa96a112df7befee754add2a676ebfbf0002ae9ff1a0e2de78681"
+        },
+        {
+          "path": "biased_transposition/run_families.py",
+          "bytes": 1888,
+          "sha256": "77c8a1e54a7b0c095bc230df9a9da430510279f1a3bf47b0808d33122d742031"
+        },
+        {
+          "path": "biased_transposition/spectrum.py",
+          "bytes": 5136,
+          "sha256": "b476d03d1ac617e8f1b62ef48ea1295a6111f6b52005afe91f3ac345118cde18"
+        }
+      ]
+    },
+    {
+      "original_name": "6f77d4ce-3941-4667-b42e-8de3dcc8d06b.zip",
+      "bytes": 105266,
+      "sha256": "f910171db0eb6de207ce4b96e15d28485e318570444b72feb8a1118c87d693e3",
+      "members": [
+        {
+          "path": "code/chi2_large.py",
+          "bytes": 1306,
+          "sha256": "e3e832ce28eb5d5b5ecd8c656a326a014c4d4f1481f3615a18b1d901c064d746"
+        },
+        {
+          "path": "code/chi2_n20_be0.5.json",
+          "bytes": 945,
+          "sha256": "6a69c58ba920ce6cdc900f2af3b6349cd1046dba718209375f51dfba8e28aa84"
+        },
+        {
+          "path": "code/exact_n10.json",
+          "bytes": 87520,
+          "sha256": "78fd3d455288b9c0429bbbc301d7df05fcb35ec1bff1b1427caec4ea14050a83"
+        },
+        {
+          "path": "code/exact_n8.json",
+          "bytes": 48002,
+          "sha256": "208ee45fa7f6ab7a445f06aab0454bee9d0a94b6bd3aa7243246dfbf269319f5"
+        },
+        {
+          "path": "code/exact_n9.json",
+          "bytes": 64048,
+          "sha256": "8f81795b4afe90acac7af2b946a972c01d6709e59fb372b463c2145a7099faf7"
+        },
+        {
+          "path": "code/exact_tv.py",
+          "bytes": 2665,
+          "sha256": "f7f852c9aab83cd39a7393ec3db1e89a670b04757f282198a048584998ce9540"
+        },
+        {
+          "path": "code/mc2000.log",
+          "bytes": 5655,
+          "sha256": "7e345e037e471d3110f1dfbde00ee6e876162407f5c323f469b03519aaef2264"
+        },
+        {
+          "path": "code/mc_n2000_all.json",
+          "bytes": 14428,
+          "sha256": "e6525c7133460e3ef602d81d504e0ae1c2f7d9e5af527a4ac4be7ec9028c27f2"
+        },
+        {
+          "path": "code/montecarlo.py",
+          "bytes": 7073,
+          "sha256": "15f24156661bb1b915cfb9ec0c01901589755f99bb9c6360e37fedbdf3b41c56"
+        },
+        {
+          "path": "code/n10.log",
+          "bytes": 1541,
+          "sha256": "34ce592906cf9b1eb0bd7e79a9753bdedc2dfd1aa167db5674ad2bea337acf8c"
+        },
+        {
+          "path": "code/n9.log",
+          "bytes": 1528,
+          "sha256": "f6ccf1946c93fe45d5fe1d86967e76cfb93a2350fe50606e5efd2d9d274a25e8"
+        },
+        {
+          "path": "code/noisefloor.py",
+          "bytes": 628,
+          "sha256": "e2ed91e0b0112f59cb3ea70e42c8d97336de38a22bd6be43d4442525668e5d81"
+        },
+        {
+          "path": "code/proj_fast.py",
+          "bytes": 1454,
+          "sha256": "046f27bb7f4e5094424fe31c283cd7f32bae10f0571ac5a08ed723e4cb850a2e"
+        },
+        {
+          "path": "code/projections.py",
+          "bytes": 2900,
+          "sha256": "34e4dcaac83aa96a112df7befee754add2a676ebfbf0002ae9ff1a0e2de78681"
+        },
+        {
+          "path": "code/run_families.py",
+          "bytes": 1888,
+          "sha256": "77c8a1e54a7b0c095bc230df9a9da430510279f1a3bf47b0808d33122d742031"
+        },
+        {
+          "path": "code/spectrum.py",
+          "bytes": 5136,
+          "sha256": "b476d03d1ac617e8f1b62ef48ea1295a6111f6b52005afe91f3ac345118cde18"
+        }
+      ]
+    }
+  ],
+  "common_members_comparison": {
+    "files": [
+      "chi2_large.py",
+      "chi2_n20_be0.5.json",
+      "exact_n10.json",
+      "exact_n8.json",
+      "exact_n9.json",
+      "exact_tv.py",
+      "mc2000.log",
+      "mc_n2000_all.json",
+      "montecarlo.py",
+      "n10.log",
+      "n9.log",
+      "noisefloor.py",
+      "proj_fast.py",
+      "projections.py",
+      "run_families.py",
+      "spectrum.py"
+    ],
+    "all_byte_identical": true
+  },
+  "brief_copies_byte_identical": true,
+  "archived_inputs": [
+    {
+      "path": "source_inputs/biased_transposition/biased_transposition_transition.md",
+      "bytes": 40974,
+      "sha256": "3b7b7fbb19fd494e601e5992ca8dfd3564ab2bdaf1124bfb05e14543cbc3acd4"
+    },
+    {
+      "path": "source_inputs/biased_transposition/biased_transposition_transition.pdf",
+      "bytes": 122280,
+      "sha256": "9bbdc0dbc05803cf5807556ede8ed5d25fb6445dbcc0bbac0493a100082aeda0"
+    },
+    {
+      "path": "source_inputs/biased_transposition/chi2_large.py",
+      "bytes": 1306,
+      "sha256": "e3e832ce28eb5d5b5ecd8c656a326a014c4d4f1481f3615a18b1d901c064d746"
+    },
+    {
+      "path": "source_inputs/biased_transposition/chi2_n20_be0.5.json",
+      "bytes": 945,
+      "sha256": "6a69c58ba920ce6cdc900f2af3b6349cd1046dba718209375f51dfba8e28aa84"
+    },
+    {
+      "path": "source_inputs/biased_transposition/exact_n10.json",
+      "bytes": 87520,
+      "sha256": "78fd3d455288b9c0429bbbc301d7df05fcb35ec1bff1b1427caec4ea14050a83"
+    },
+    {
+      "path": "source_inputs/biased_transposition/exact_n8.json",
+      "bytes": 48002,
+      "sha256": "208ee45fa7f6ab7a445f06aab0454bee9d0a94b6bd3aa7243246dfbf269319f5"
+    },
+    {
+      "path": "source_inputs/biased_transposition/exact_n9.json",
+      "bytes": 64048,
+      "sha256": "8f81795b4afe90acac7af2b946a972c01d6709e59fb372b463c2145a7099faf7"
+    },
+    {
+      "path": "source_inputs/biased_transposition/exact_tv.py",
+      "bytes": 2665,
+      "sha256": "f7f852c9aab83cd39a7393ec3db1e89a670b04757f282198a048584998ce9540"
+    },
+    {
+      "path": "source_inputs/biased_transposition/mc2000.log",
+      "bytes": 5655,
+      "sha256": "7e345e037e471d3110f1dfbde00ee6e876162407f5c323f469b03519aaef2264"
+    },
+    {
+      "path": "source_inputs/biased_transposition/mc_n2000_all.json",
+      "bytes": 14428,
+      "sha256": "e6525c7133460e3ef602d81d504e0ae1c2f7d9e5af527a4ac4be7ec9028c27f2"
+    },
+    {
+      "path": "source_inputs/biased_transposition/montecarlo.py",
+      "bytes": 7073,
+      "sha256": "15f24156661bb1b915cfb9ec0c01901589755f99bb9c6360e37fedbdf3b41c56"
+    },
+    {
+      "path": "source_inputs/biased_transposition/n10.log",
+      "bytes": 1541,
+      "sha256": "34ce592906cf9b1eb0bd7e79a9753bdedc2dfd1aa167db5674ad2bea337acf8c"
+    },
+    {
+      "path": "source_inputs/biased_transposition/n9.log",
+      "bytes": 1528,
+      "sha256": "f6ccf1946c93fe45d5fe1d86967e76cfb93a2350fe50606e5efd2d9d274a25e8"
+    },
+    {
+      "path": "source_inputs/biased_transposition/noisefloor.py",
+      "bytes": 628,
+      "sha256": "e2ed91e0b0112f59cb3ea70e42c8d97336de38a22bd6be43d4442525668e5d81"
+    },
+    {
+      "path": "source_inputs/biased_transposition/proj_fast.py",
+      "bytes": 1454,
+      "sha256": "046f27bb7f4e5094424fe31c283cd7f32bae10f0571ac5a08ed723e4cb850a2e"
+    },
+    {
+      "path": "source_inputs/biased_transposition/projections.py",
+      "bytes": 2900,
+      "sha256": "34e4dcaac83aa96a112df7befee754add2a676ebfbf0002ae9ff1a0e2de78681"
+    },
+    {
+      "path": "source_inputs/biased_transposition/run_families.py",
+      "bytes": 1888,
+      "sha256": "77c8a1e54a7b0c095bc230df9a9da430510279f1a3bf47b0808d33122d742031"
+    },
+    {
+      "path": "source_inputs/biased_transposition/spectrum.py",
+      "bytes": 5136,
+      "sha256": "b476d03d1ac617e8f1b62ef48ea1295a6111f6b52005afe91f3ac345118cde18"
+    },
+    {
+      "path": "source_inputs/newtransition.md",
+      "bytes": 2496,
+      "sha256": "6e0884cdbc4902bcefe8865892cc2b56909ea6acaae5122e5af5e2fbdadd995c"
+    }
+  ]
+}

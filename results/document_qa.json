@@ -1,0 +1,26 @@
+{
+  "status": "PASS",
+  "documents": [
+    {
+      "file": "paper.pdf",
+      "pages": 13,
+      "page_size": "A4",
+      "text_bounds_check": "PASS",
+      "rasterised_for_inspection": true,
+      "contact_sheet_inspected": true,
+      "full_size_sample_page_inspected": 13,
+      "out_of_bounds_spans": []
+    },
+    {
+      "file": "audit.pdf",
+      "pages": 6,
+      "page_size": "A4",
+      "text_bounds_check": "PASS",
+      "rasterised_for_inspection": true,
+      "contact_sheet_inspected": true,
+      "full_size_sample_page_inspected": 1,
+      "out_of_bounds_spans": []
+    }
+  ],
+  "limitations": "Visual and bounding-box checks, not semantic or formal mathematical verification."
+}

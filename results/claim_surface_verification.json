@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "paper_table_rows_bound": 4,
+  "headline_formulas_bound": 5,
+  "contract": "certificate_contract.json",
+  "claim": "FINITE_TABLE",
+  "limitations": "Binds enumerated publication fields; does not parse or verify the full prose proof.",
+  "documents": {
+    "tex_regeneration": "PASS",
+    "pdf_text_regeneration": "PASS",
+    "limitations": "Text parity plus separate visual QA; not formal proof verification."
+  }
+}
