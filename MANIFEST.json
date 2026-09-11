@@ -3,6 +3,11 @@
   "algorithm": "sha256",
   "files": [
     {
+      "path": ".github/workflows/publish-candidate.yml",
+      "bytes": 1779,
+      "sha256": "dbc3158ee59f2e89de3b6a61163dbb44aa64fd29defe2b67206abb6270c250d4"
+    },
+    {
       "path": ".github/workflows/replay.yml",
       "bytes": 1300,
       "sha256": "673bd6c5b9ea7173afdb405ee9c354867abfd63579c1e2a7e601c8878c4f09d9"
